@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    font: 16px/28px arial, sans-serif;
+    color: #333;
+}
+
+/* index.html */
+.container {
+    width: 800px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.container header h1.judul {
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+hr {
+    margin-top: 20px;
+}
+
+.container nav.kelompok5 {
+    margin-top: 30px;
+}
+
+.container nav.kelompok5 ul {
+    list-style-type: none;
+}
+
+.container nav.kelompok5 ul a {
+    color: #333;
+    text-decoration: none;
+}
+
+.container nav.kelompok5 ul li {
+    text-indent: 20px;
+    font-size: 20px;
+    padding: 15px 0px;
+    background-color: #fffbf6;
+    margin: 0px 0 30px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.container nav.kelompok5 ul li:hover {
+    text-indent: 20px;
+    font-size: 20px;
+    padding: 15px 0px;
+    background-color: #fffbf6;
+    margin: 0px 0 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 7px #0000004d;
+}
+
+
