@@ -1,0 +1,123 @@
+/* All */
+body {
+    margin: 0%;
+    font-size: 21px;
+}
+.container {
+    width: 100%;
+}
+
+
+/* Header */
+.container .header header h1 {
+    margin: 0%;
+    padding: 10px;
+    background-color: rgb(70, 181, 255);
+}
+.container .header header h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*TopBar */
+.container nav.topbar table {
+    background-color: rgb(73, 73, 73);
+    width: 100%;
+}
+.container nav.topbar table tr td {
+    padding: 0%;
+}
+.container nav.topbar table tr td ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+.container nav.topbar table tr td ul li {
+    float: left;
+    width: auto;
+    height: auto;
+}
+.container nav.topbar table tr td.none {
+    width: auto;
+}
+/* Anchor:... */
+.container nav.topbar table tr td ul li a{
+    color: white;
+    display: block;
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.container nav.topbar table tr td ul li a:hover {
+    font-weight: bolder;
+    background-color: black;
+}
+
+
+/* Profile */
+.container .profile table {
+    width: 100%;
+    margin-top: 10px;
+}
+.container .profile .profilepicture {
+    width: 15%;
+}
+.container .profile .profilepicture img {
+    width: 145px;
+    height: 145px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container .profile table tr td {
+    width: 82%;
+}
+
+
+/* Main */
+.container .main table tr td div u h3{
+    font-size: 32px;
+}
+/* Left */
+.container .main table tr td.mainleft {
+    vertical-align: top;
+    width: 60%;
+    padding: 10px;
+}
+.container .main table tr td.mainleft div.description p {
+    text-align: justify;
+}
+.container .main table tr td.mainleft div.personaldata table tr td {
+    text-align: left;
+    vertical-align: top;
+    padding-bottom: 25px;
+}
+/* Right */
+.container .main table tr td.mainright {
+    vertical-align: top;
+    width: 40%;
+    padding: 10px;
+}
+.container .main table tr td.mainright div.Contacts table tr td a img {
+    width: 45px;
+    height: 45px;
+}
+.container .main table tr td.mainright div.Contacts table tr td a img:hover {
+    box-shadow: 0 0 8px grey;
+}
+
+
+/* Footer */
+.container .footer {
+    color: white;
+    padding-left: 10px;
+    background-color: rgb(73, 73, 73);
+}
+.container .footer small a {
+    color: rgb(71, 207, 241);
+}
+
+
+/* Tambahan: hurufnya di perbesar */
