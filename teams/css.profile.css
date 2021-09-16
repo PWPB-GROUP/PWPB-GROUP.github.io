@@ -9,10 +9,24 @@ body {
 
 
 /* Header */
-.container .header header h1 {
+.container .header table {
+    display: inline;
     margin: 0%;
-    padding: 10px;
+    padding: 3% 0% 1%;
+    float: left;
+    width: 100%;
     background-color: rgb(70, 181, 255);
+}
+.container .header tr td:first-child {
+    width: 15%;
+    padding: 0% 1% 0% 1%;
+}
+.container .header img {
+    width: 100%;
+}
+.container .header header h1 {
+    width: 85%;
+    margin: 0%;
 }
 .container .header header h1 a {
     text-decoration: none;
@@ -62,17 +76,17 @@ body {
     margin-top: 10px;
 }
 .container .profile .profilepicture {
-    width: 15%;
+    width: 20%;
+    padding: 0% 1% 0% 1%;
 }
 .container .profile .profilepicture img {
-    width: 145px;
-    height: 145px;
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 .container .profile table tr td {
-    width: 82%;
+    width: 80%;
 }
 
 
@@ -107,6 +121,9 @@ body {
 .container .main table tr td.mainright div.Contacts table tr td a img:hover {
     box-shadow: 0 0 8px grey;
 }
+.container .main table tr td.mainright div.Contacts table tr td a:hover {
+    font-weight: bolder;
+}
 
 
 /* Footer */
@@ -118,6 +135,6 @@ body {
 .container .footer small a {
     color: rgb(71, 207, 241);
 }
-
-
-/* Tambahan: hurufnya di perbesar */
+.container .footer small a:hover {
+    font-weight: bolder;
+}
