@@ -1,4 +1,8 @@
 /* All */
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0%;
     font-size: 21px;
@@ -137,4 +141,98 @@ body {
 }
 .container .footer small a:hover {
     font-weight: bolder;
+}
+
+.wrapper{
+    
+}
+
+nav .wrapper{
+    justify-content: space-between;
+    background-color: #152D35;
+    display: flex;
+    
+}
+
+.wrapper ul{
+    position: relative;
+    margin: 32px 16px;
+}
+
+.wrapper li{
+    display: inline-block;
+}
+
+nav .wrapper li a{
+    padding: 12px;
+    font-size: 18px;
+    color: #cdcece;
+    text-decoration: none;
+}
+
+nav .wrapper li a:hover{
+    padding: 12px;
+    font-size: 18px;
+    color: #cdcece;
+    text-decoration: none;
+    background-color: #112031;
+}
+
+nav .wrapper h2 a{
+    margin: 32px;
+    font-size: 28px;
+    color: #cdcece;
+    text-decoration: none;
+}
+
+.data{
+    display: flex;
+}
+
+#identity img{
+    margin: 24px;
+    width: 10%;
+    height: 10%;
+}
+
+.data-detail{
+    margin: 0px 32px;
+    color: #D4ECDD;
+}
+
+.data-about{
+    margin: 12px;
+}
+
+#identity{
+    background-color: #22577A;
+}
+
+#teams li{
+    display: block;
+}
+
+#teams a{
+    color: #112031;
+    text-decoration: none;
+}
+
+#teams a:hover{
+    color: #112031;
+    text-decoration: underline;
+}
+
+#contact img{
+    margin: 0px 12px;
+    width: 24px;
+    height: 24px;
+}
+
+#contact a{
+    color: #22577A;
+    text-decoration: none;
+}
+
+#teams, #contact{
+    margin: 12px;
 }
