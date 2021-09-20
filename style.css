@@ -5,58 +5,272 @@
 }
 
 body {
-    background-color: whitesmoke;
-    font: 16px/28px arial, sans-serif;
-    color: #333;
+    font: 16px/28px 'Times New Roman', arial, sans-serif;
+    color:#333;
+    height: 100%;
+}
+
+body.index {
+    /* background-color: #bdd9ff; */
 }
 
 /* index.html */
-.container {
-    width: 800px;
-    margin: auto;
-    margin-top: 100px;
+nav.main {
+    background-color: #f1fbff;
+    width: 100%;
+    padding: 10px;
+    z-index: 5;
+    position: fixed;
 }
 
-.container header h1.judul {
+nav.main ul {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+nav.main ul li {
+    list-style-type: none;
+    height: 30px;
+}
+
+nav.main ul li a {
+    font-size: 17px;
+    text-decoration: none;
+    color: #252525;
+}
+
+/* Home */
+#home {
+    background-image: url(img-bg/jackson-so-_t-l5FFH8VA-unsplash.jpg);
+    background-size: cover;
+    background-position: 0 -77px;
+    height: 570px;
+}
+
+#home .topik {
+    position: absolute;
+    top: 80px;
+    left: 90px;
+    line-height: 50px;
+}
+
+#home .topik h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-style: italic;
     font-weight: bolder;
     font-size: 50px;
 }
 
-hr {
+#home h1 span {
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: lighter;
+}
+
+/* Learn */
+#learn * {
+    border: 1px solid red;
+}
+
+#learn {
+    background-color: #b8eaff;
+    padding: 20px;
+    
+}
+
+#learn header h1 {
+    padding: 10px;
     margin-top: 20px;
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
 }
 
-.container nav.kelompok5 {
-    margin-top: 30px;
+#learn .learning {
+    margin: 20px auto;
+    padding: 20px;
+    width: 900px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.container nav.kelompok5 ul {
-    list-style-type: none;
+#learn .learning .html .header {
+    background-image: url(img-bg/html.png);
 }
 
-.container nav.kelompok5 ul a {
+#learn .learning .css .header {
+    background-image: url(img-bg/css-3.png);
+}
+
+#learn .learning .javascript .header {
+    background-image: url(img-bg/javascript.png);
+}
+
+#learn .learning a {
     color: #333;
+    width: 300px;
+    margin: 15px;
     text-decoration: none;
-}
-
-.container nav.kelompok5 ul li {
-    text-indent: 20px;
-    font-size: 20px;
-    padding: 15px 0px;
-    background-color: #fffbf6;
-    margin: 0px 0 30px;
+    overflow: hidden;
     border-radius: 10px;
+    background: #ffffff73;
+    box-shadow: 0 8px 20px 0 #1f26875e;
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
     transition: 0.3s;
 }
 
-.container nav.kelompok5 ul li:hover {
-    text-indent: 20px;
-    font-size: 20px;
-    padding: 15px 0px;
-    background-color: #fffbf6;
-    margin: 0px 0 30px;
+#learn .learning a:hover {
+    width: 300px;
+    margin: 15px;
+    text-decoration: none;
+    overflow: hidden;
     border-radius: 10px;
-    box-shadow: 0 0 7px #0000004d;
+    background: #ffffff73;
+    box-shadow: 0 8px 20px 0 #1f26875e;
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    background: linear-gradient(315deg, #b8eaff, #aac3e6);
+    box-shadow: -5px -5px 20px #93a9c7,
+                5px 5px 20px #e7ffff;
 }
 
+#learn .learning h3 {
+    padding: 10px;
+}
 
+#learn .learning .header {
+    height: 100px;
+    background-position: center;
+    background-size: 90px;
+    background-repeat: no-repeat;
+}
+
+#learn .learning .content {
+    text-align: center;
+}
+
+/* About Us */
+#about_us {
+    background-color: #bdd9ff;
+    padding: 20px;
+}
+
+#about_us .profile {
+    padding: 0px;
+    margin: 70px auto;
+    padding: 20px;
+    width: 900px;
+    border-radius: 5px;
+    background: linear-gradient(145deg, #cae8ff, #aac3e6);
+    box-shadow: 20px 20px 60px #aec8eb,
+                -20px -20px 60px #cceaff;
+}
+
+#about_us .profile header h1 {
+    padding: 15px;
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+}
+
+#about_us .profile nav {
+    margin-top: 50px;
+}
+
+#about_us .profile nav.kelompok5 ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#about_us .profile nav.kelompok5 ul li {
+    list-style: none;
+    display: flex;
+}
+
+#about_us .profile nav.kelompok5 ul li a {
+    text-decoration: none;
+    padding: 0 20px;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    font-size: 20px;
+    color: #333;
+    border-radius: 10px;
+    background: rgba( 255, 255, 255, 0.45 );
+    box-shadow: 0 8px 20px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    /* background-color: #d6e7ff; */
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: baseline;
+    transition: 0.3s;
+}
+
+#about_us .profile nav.kelompok5 ul li a img {
+    width: 125px;
+    height: 125px;
+}
+
+#about_us .profile nav.kelompok5 ul li a:hover {
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+    background-color: #ebebeb;
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: linear-gradient(315deg, #cae8ff, #aac3e6);
+    box-shadow: -5px -5px 20px #93a9c7,
+                5px 5px 20px #e7ffff;
+}
+
+/* page_daniel-n9.html */
+body.profileDaniel {
+    background-color: #e6f0ff;
+}
+
+.profileDaniel nav ul {
+    background-color: #90deff;
+    display: flex;
+    justify-content: center;
+}
+
+.profileDaniel nav ul li {
+    list-style: none;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+
+.profileDaniel nav ul li a {
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.page .photoProfile h2 {
+    font-size: 50px;
+}
+
+.page .photoProfile {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.page .photoProfile img {
+    width: 200px;
+    height: 200px;
+}
