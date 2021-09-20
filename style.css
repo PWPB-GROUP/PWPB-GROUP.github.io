@@ -42,7 +42,7 @@ nav.main ul li a {
 
 /* Home */
 #home {
-    background-image: url(img-bg/jackson-so-_t-l5FFH8VA-unsplash.jpg);
+    background-image: url(images/jackson-so-unsplash.jpg);
     background-size: cover;
     background-position: 0 -77px;
     height: 570px;
@@ -99,15 +99,15 @@ nav.main ul li a {
 }
 
 #learn .learning .html .header {
-    background-image: url(img-bg/html.png);
+    background-image: url(images/html.png);
 }
 
 #learn .learning .css .header {
-    background-image: url(img-bg/css-3.png);
+    background-image: url(images/css-3.png);
 }
 
 #learn .learning .javascript .header {
-    background-image: url(img-bg/javascript.png);
+    background-image: url(images/javascript.png);
 }
 
 #learn .learning a {
