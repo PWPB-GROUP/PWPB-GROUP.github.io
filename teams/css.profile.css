@@ -12,20 +12,20 @@ body {
 .container .header table {
     display: inline;
     margin: 0%;
-    padding: 3% 0% 1%;
+    padding: 1% 0%;
     float: left;
     width: 100%;
     background-color: rgb(70, 181, 255);
 }
 .container .header tr td:first-child {
-    width: 15%;
+    width: 7%;
     padding: 0% 1% 0% 1%;
 }
 .container .header img {
     width: 100%;
 }
 .container .header header h1 {
-    width: 85%;
+    width: 93%;
     margin: 0%;
 }
 .container .header header h1 a {
@@ -76,7 +76,7 @@ body {
     margin-top: 10px;
 }
 .container .profile .profilepicture {
-    width: 20%;
+    width: 13%;
     padding: 0% 1% 0% 1%;
 }
 .container .profile .profilepicture img {
@@ -86,7 +86,7 @@ body {
     margin-right: auto;
 }
 .container .profile table tr td {
-    width: 80%;
+    width: 87%;
 }
 
 
