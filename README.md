@@ -1,7 +1,8 @@
 # pwpb-html
 
 Anggota Kelompok :
-  1. Daniel Nalle (05)
-  2. I Made Adnya Sutha Wirya (15)
-  3. I Made Dedy Setiawan (16)
-  4. Vaisya Govinanda S (40)
+1. Gusti ayu Bintang Dwi A (08)
+2. I Ketut cahaya tires Dharma Putra (12)
+3. I Komang handy jayadi (13)
+4. I Made adnya sutha wirya (15 )
+5. I Made dedy setiawan (16 )
