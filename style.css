@@ -42,7 +42,7 @@ nav.main ul li a {
 
 /* Home */
 #home {
-    background-image: url(images/jackson-so-unsplash.jpg);
+    background-image: url(images/behepi.png);
     background-size: cover;
     background-position: 0 -77px;
     height: 570px;
@@ -71,7 +71,7 @@ nav.main ul li a {
 
 /* Learn */
 #learn {
-    background-color: #b8eaff;
+    background-color: #D4ECDD;
     padding: 20px;
     
 }
@@ -104,6 +104,10 @@ nav.main ul li a {
 
 #learn .learning .javascript .header {
     background-image: url(images/javascript.png);
+}
+
+#learn .learning .other .header {
+    background-image: url(images/coderborr.png);
 }
 
 #learn .learning a {
@@ -152,7 +156,10 @@ nav.main ul li a {
 
 /* About Us */
 #about_us {
-    background-color: #bdd9ff;
+    background-color: #664E88;
+    border-top-left-radius: 64px;
+    border-top-right-radius: 64px;
+    border: 1px solid white;
     padding: 20px;
 }
 
@@ -162,9 +169,9 @@ nav.main ul li a {
     padding: 20px;
     width: 900px;
     border-radius: 5px;
-    background: linear-gradient(145deg, #cae8ff, #aac3e6);
-    box-shadow: 20px 20px 60px #aec8eb,
-                -20px -20px 60px #cceaff;
+    background: linear-gradient(145deg, #664E88, #664E88);
+    box-shadow: 20px 20px 60px #664E88,
+                -20px -20px 60px #664E88;
 }
 
 #about_us .profile header h1 {
@@ -172,6 +179,7 @@ nav.main ul li a {
     font-size: 50px;
     font-style: italic;
     text-align: center;
+    color: white;
 }
 
 #about_us .profile nav {
