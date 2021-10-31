@@ -111,6 +111,14 @@ nav.main ul li a {
     background-image: url(images/javascript.png);
 }
 
+#learn .learning .python .header {
+    background-image: url(images/py-ic.png);
+}
+
+#learn .learning .exercises .header {
+    background-image: url(images/exercises-ic.jpg);
+}
+
 #learn .learning .other .header {
     background-image: url(images/coderborr.png);
 }

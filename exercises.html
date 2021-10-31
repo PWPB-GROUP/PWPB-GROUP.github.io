@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWPB Exercises</title>
+
+    <link rel="stylesheet" type="text/css" src="./l/codemirror.css">
+    <script type="text/javascript" src="https://codemirror.net/lib/codemirror.js"></script>
+    <script type="text/javascript" src="https://codemirror.net/mode/xml/xml.js"></script>
+    <script type="text/javascript" src="https://codemirror.net/mode/css/css.js"></script>
+    <script type="text/javascript" src="https://codemirror.net/mode/javascript/javascript.js"></script>
+    <script type="text/javascript" src="https://codemirror.net/edit/closetag.js"></script>
+    <link href="https://codemirror.net/theme/dracula.js" />
+
+    <!-- <link rel="stylesheet" href="./description/our.css"> -->
+    <link rel="stylesheet" href="./exercise-style.css">
+    
+</head>
+<body>
+
+    <div class="navbar">
+        <nav>
+            <div class="nav-1">
+                <ul>
+                    <li><a href="./index.html"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-skip-backward-fill" viewBox="0 0 16 16">
+                        <path d="M.5 3.5A.5.5 0 0 0 0 4v8a.5.5 0 0 0 1 0V8.753l6.267 3.636c.54.313 1.233-.066 1.233-.697v-2.94l6.267 3.636c.54.314 1.233-.065 1.233-.696V4.308c0-.63-.693-1.01-1.233-.696L8.5 7.248v-2.94c0-.63-.692-1.01-1.233-.696L1 7.248V4a.5.5 0 0 0-.5-.5z"/>
+                      </svg></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+
+
+        <div class="container-main">
+
+            <h2>Code Editor</h2>
+            
+            <div class="code">
+
+                <textarea id="editor"></textarea>
+
+                <div class="preview">
+                    <iframe id="preview-window"></iframe>
+                </div>
+
+            </div>
+
+            <div class="run">
+                <button id="run-btn">Run Code</button>
+            </div>
+
+        </div>
+        
+    </div>
+
+    <script src="./exercise.js"></script>
+    
+</body>
+</html>
