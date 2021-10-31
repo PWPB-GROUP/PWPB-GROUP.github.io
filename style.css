@@ -110,7 +110,12 @@ nav.main ul li a {
 #learn .learning .javascript .header {
     background-image: url(images/javascript.png);
 }
-
+#learn .learning .Python .header {
+    background-image: url(images/image.png);
+}
+#learn .learning .php .header {
+    background-image: url(images/php.png);
+}
 #learn .learning .other .header {
     background-image: url(images/coderborr.png);
 }
