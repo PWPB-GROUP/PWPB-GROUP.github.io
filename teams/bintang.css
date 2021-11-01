@@ -1,0 +1,22 @@
+.kembali {
+    text-decoration: none;
+}
+
+.foto {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.profile {
+    list-style: none;
+}
+
+.about {
+    list-style: none;
+}
+
+body {
+    background-color: rgb(180, 175, 175);
+}
